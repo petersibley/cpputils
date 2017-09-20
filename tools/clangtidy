@@ -1,0 +1,3 @@
+#!/bin/bash
+# install via homebrew
+/usr/local/opt/llvm@5/bin/clang-tidy -p=compile_commands.json -checks="*" src/*.cpp
