@@ -9,7 +9,10 @@ int main()
 {
     auto s = string{"  test"};
     ltrim(s); 
+    
+    auto t = string{"test  "};
+    rtrim(t); 
 
-    std::cout << s << "\n";
+    std::cout << s << "\n" << t << "\n";
     return 0;
 }
