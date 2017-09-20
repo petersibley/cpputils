@@ -1,3 +1,7 @@
+You'll want to install the latest cmake
+`brew install cmake` 
+`brew install ninja`
+
 Clangformat and friends can be installed via LLVM
 
 `brew install llvm`
