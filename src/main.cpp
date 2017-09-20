@@ -2,13 +2,14 @@
 #include <iostream>
 #include <string>
 
-using std::string;
 using cpputils::ltrim;
 using cpputils::rtrim;
-
-void f(int a) {
-  auto b = (int)a;
-  std::cout << b;
+using std::string;
+// test the clang tidy stuff via c casts
+void f(int a)
+{
+    auto b = (int)a;
+    std::cout << b;
 }
 
 int main()
